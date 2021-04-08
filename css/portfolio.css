@@ -12,6 +12,7 @@ header{
     width: 100%;
     background-color: rgb(27, 26, 26);
 }
+
 .header-image{
     width: 100%;
 }
@@ -101,10 +102,6 @@ h2, h3{
     border-right: 4px solid darkgrey ;
     text-align: right;
     width: 15%;
-}
-
-h3{ 
-    height: 50px;
 }
 
 section{
@@ -203,6 +200,7 @@ h1{
 h2, h3, p{
     color: var(--nav-lines);
 } 
+
 html{
     width: 100%;
 }
