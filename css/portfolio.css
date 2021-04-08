@@ -20,7 +20,7 @@ header ul {
     justify-content: flex-end;
 }
 
-a{
+.anchor-style{
     border-bottom: 2px solid var(--nav-lines) ;
     font-size: 2em;
     margin: 12px;
@@ -151,7 +151,7 @@ header ul {
     text-align: center;
 }
 
-a{  
+.anchor-style{  
     color: black;
     border-bottom: 2px solid black ;
     font-size: 18pt;
