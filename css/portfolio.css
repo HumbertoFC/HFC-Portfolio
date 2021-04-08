@@ -12,9 +12,11 @@ header{
     width: 100%;
     background-color: rgb(27, 26, 26);
 }
+.header-image{
+    width: 100%;
+}
 
-header ul { 
-    display: flex;
+header ul {    
     justify-content: flex-end;
 }
 
@@ -82,18 +84,20 @@ article{
     width: 50%;
     flex-wrap: wrap;
 }
-
-.artc{
-    padding: 14px;
+.artc1{
+    height:400px ; width:100%;
+}
+.artc2, .artc3{
+    height:200px ;  width:50%; 
+    float:left;
 }
 
 h2, h3{
     font-weight: bolder;
     font-size: 2em;
     padding-right: 20px;
-    border-right: 4px solid var(--nav-lines) ;
+    border-right: 4px solid darkgrey ;
     text-align: right;
-    height: 200px;
     width: 15%;
 }
 
@@ -108,7 +112,7 @@ section{
 
 p{
     position: absolute;
-    right: 50px;
+    right: 2%;
     width: 78%;
   }
 
@@ -117,7 +121,7 @@ p{
     position: relative;
 }
 
-.artc:hover{
+.artc1:hover, .artc2:hover, .artc3:hover{
     transition: 1.5s ease;
     opacity: 0.3;
     background-color: var(--nav-lines);
@@ -138,10 +142,21 @@ header{
     background-color: rgb(239, 239, 245);
 }
 
+header ul { 
+    
+    justify-content: flex-end;
+}
+
+.text-right{
+    text-align: center;
+}
+
 a{  
     color: black;
     border-bottom: 2px solid black ;
+    font-size: 18pt;
 }
+
 a:hover {
     transition: 1s ease;
     color: var(--nav-lines);
@@ -149,6 +164,12 @@ a:hover {
     background-color: black;
     border-radius: 15px;
 }
+
+p{
+    position: relative;
+    left: 2%;
+    width: 100%;
+  }
 
 .cool-subtitle:hover{
     transition: 1s ease;
@@ -158,6 +179,9 @@ a:hover {
 }
 
 .cool-subtitle{
+    font-size: 25px;
+    height: 31px;
+    width: 284px;
     background-color: rgb(27, 26, 26);
     color: var(--nav-lines);
 }
@@ -167,6 +191,9 @@ body{
 }
 
 h1{
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 15px;
     background-color: rgb(27, 26, 26);
     color: var(--nav-lines);
 }
@@ -174,5 +201,17 @@ h1{
 h2, h3, p{
     color: var(--nav-lines);
 } 
+html{
+    width: 100%;
+}
 
+h1{
+   margin-left: 20%;
+}
+}
+
+@media screen and (max-width: 397px) {
+    h1{
+        margin-left: 8%;
+    }
 }
