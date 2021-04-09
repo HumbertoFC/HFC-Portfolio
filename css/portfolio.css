@@ -17,6 +17,14 @@ header{
     width: 100%;
 }
 
+.portfolio-picture{
+    position: absolute;
+    left: 7px;
+    border-radius: 15px;
+    height: 41%;
+    
+}
+
 header ul {    
     justify-content: flex-end;
 }
@@ -146,6 +154,14 @@ header ul {
     justify-content: flex-end;
 }
 
+.portfolio-picture{
+    position: absolute;
+    left: 1px;
+    border-radius: 15px;
+    height: 14%;
+    
+}
+
 .text-right{
     text-align: center;
 }
@@ -195,21 +211,26 @@ h1{
     border-radius: 15px;
     background-color: rgb(27, 26, 26);
     color: var(--nav-lines);
+    margin-left: 20%;
 }
 
 h2, h3, p{
+    display: grid;
     color: var(--nav-lines);
+    border-bottom: 4px solid darkgrey ;
+    width: 100%;
+    text-align: center;
 } 
+
+section{
+    display: block;
+}
 
 html{
     width: 100%;
 }
+} 
 
-h1{
-   margin-left: 20%;
-}
-
-}
 
 @media screen and (max-width: 397px) {
     h1{
