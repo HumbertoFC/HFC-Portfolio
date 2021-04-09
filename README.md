@@ -23,7 +23,8 @@ THEN YOU will presented with a responsive layout that adapts to my viewport
 https://humbertofc.github.io/HFC-Portfolio/#work
 
 
-<iframe src="https://drive.google.com/file/d/12faCPqKFPcEhD_QiJOenlTG4zdpemOAL/preview" width="640" height="480"></iframe>
+![HFC Portfolio (1)](https://user-images.githubusercontent.com/79770408/114126801-20bb6d00-98c7-11eb-8e58-c059e355e5f6.gif)
+
 
 
 ## Thank you for stoping by!
