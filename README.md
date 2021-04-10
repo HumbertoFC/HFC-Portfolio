@@ -20,7 +20,7 @@ THEN YOU will presented with a responsive layout that adapts to my viewport
 
 ## Click the following link to visit my portfolio:
 <br>
-https://humbertofc.github.io/HFC-Portfolio/#work{target="_blank"}
+https://humbertofc.github.io/HFC-Portfolio/#worktarget="_blank"
 
 
 ![HFC Portfolio (1)](https://user-images.githubusercontent.com/79770408/114126801-20bb6d00-98c7-11eb-8e58-c059e355e5f6.gif)
