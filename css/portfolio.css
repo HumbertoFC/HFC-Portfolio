@@ -227,6 +227,11 @@ h2, h3, p{
     text-align: center;
 } 
 
+.artc1, .artc2,.artc3 {
+    width: 100%; 
+    float: none;
+}
+
 section{
     display: block;
 }
